@@ -12,9 +12,10 @@ function love.load()
 end
 
 function love.update(dt)
-    -- Update your game logic here
+    player:move(dt)
 end
 
 function love.draw()
-    -- Draw your game elements here
+    -- Draw your game here
+    player:draw()
 end
