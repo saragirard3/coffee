@@ -7,4 +7,7 @@ return {
     -- Player constants
     PLAYER_SPEED = 200,
 
+    -- Enemy constants
+    ENEMY_SPEED = 150,
+
 }

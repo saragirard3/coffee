@@ -1,5 +1,6 @@
 local constants = require "constants"
 local Player = require "player"
+local Coffee = require "coffee"
 
 local player
 
@@ -8,6 +9,7 @@ function love.load()
     love.window.setTitle( "Coffee" )
     love.window.setMode( constants.WINDOW_W, constants.WINDOW_H, {resizable=true} )
     player = Player:new()
+    coffee = Coffee:new()
     
 end
 
@@ -18,4 +20,5 @@ end
 function love.draw()
     -- Draw your game here
     player:draw()
+    coffee:draw()
 end
