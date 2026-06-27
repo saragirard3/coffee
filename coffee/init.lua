@@ -15,7 +15,6 @@ end
 
 
 coffee.draw = function(self)
-
     love.graphics.draw(coffeeimage, self.x, self.y)
 end
 

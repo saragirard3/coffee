@@ -3,6 +3,7 @@ local Player = require "player"
 local Coffee = require "coffee"
 
 local player
+local coffee
 
 function love.load()
     --Assets and initialize variables here
