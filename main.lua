@@ -15,7 +15,7 @@ function love.load()
 end
 
 function love.update(dt)
-    player:move(dt)
+    player:update(dt)
 end
 
 function love.draw()
