@@ -11,7 +11,8 @@ function love.load()
     love.window.setMode( constants.WINDOW_W, constants.WINDOW_H, {resizable=true} )
     player = Player:new()
     coffee = Coffee:new()
-    
+    player:load()
+    -- coffee:load()
 end
 
 function love.update(dt)
